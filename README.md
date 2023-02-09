@@ -47,3 +47,19 @@ source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ```
+
+with Docker:
+```sh
+# to build
+docker-compose build
+
+# to check resources
+
+docker-compose ps
+
+# to run
+docker-compose up
+
+# to access
+docker-compose exec app-csv bash
+```
