@@ -19,6 +19,23 @@ pip3 install -r requirements.txt
 python3 main.py
 ```
 
+How to do it on docker:
+
+```sh
+# to build
+docker-compose build
+
+# to check resources
+
+docker-compose ps
+
+# to run
+docker-compose up
+
+# to access
+docker-compose exec app-csv bash
+```
+
 # Web-Server Project
 
 Follow the instructions:
