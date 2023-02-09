@@ -63,3 +63,60 @@ docker-compose up
 # to access
 docker-compose exec app-csv bash
 ```
+
+# Conda Commands
+
+Listar entornos
+
+```sh
+conda env list
+```
+
+Crear entorno
+
+```sh
+conda create --name py35 python=3.5 pandas
+```
+
+Activar entorno
+
+```sh
+conda activate py35
+```
+
+Desactivar entorno
+
+```sh
+conda deactivate
+```
+
+Listar dependencias
+
+```sh
+conda list
+conda list pandas
+```
+
+Actualizar dependencia
+
+```sh
+conda update pandas
+```
+
+Instalar dependencia
+
+```sh
+conda install python=3.9 pandas=1.2
+```
+
+Remover dependencia
+
+```sh
+conda remove pandas
+```
+
+Remover entorno (tienes que salir de el)
+
+```sh
+conda env remove --name py35
+```
