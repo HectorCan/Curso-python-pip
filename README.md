@@ -120,3 +120,16 @@ Remover entorno (tienes que salir de el)
 ```sh
 conda env remove --name py35
 ```
+
+Instalar paquetes de otro canal
+
+```sh
+conda install --chanel CHANNEL PACKAGE
+```
+
+Una mejor optimizacion de conda es mamba, usualmente todos los comandos de conda estan disponibles, ya que
+realiza los procesos en paralelo
+
+```sh
+mamba env export --history
+```
